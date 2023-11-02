@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>FslGift.Serialization</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>FslGift.Serialization</PackageId>
+    <Title>FslGIFT Serialization</Title>
+    <Version>0.1.0</Version>
+    <Authors>JulesWhite</Authors>
+    <Company>FriendsRobotics</Company>
+    <Product>FslGift.Serialization</Product>
+    <Description>A Serialization API to seraialize and deserialize .fslgift files</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/Friends-Robotics/FslGift-Serialization</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>FriendsRobotics</PackageTags>
+    <PackageReleaseNotes>Prerelease 0.1.0
+</PackageReleaseNotes>
+    <PackageLicenseExpression>  GPL-3.0-only</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FriendsRobotics.TreeAPI" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
